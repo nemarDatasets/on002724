@@ -1,15 +1,21 @@
 {
-    "Name": "A dataset recorded during development of an affective brain-computer music interface: training sessions",
-    "BIDSVersion": "1.0.2",
-    "Authors": [
-        "Ian Daly",
-        "Nicoletta Nicolaou",
-        "Duncan Williams",
-        "Faustina Hwang",
-        "Alexis Kirke",
-        "Eduardo Miranda",
-        "Slawomir J. Nasuto"
-    ],
-    "License": "CC0",
-    "DatasetDOI": "10.18112/openneuro.ds002724.v1.0.1"
+  "Name": "A dataset recorded during development of an affective brain-computer music interface: training sessions",
+  "BIDSVersion": "1.0.2",
+  "Authors": [
+    "Ian Daly",
+    "Nicoletta Nicolaou",
+    "Duncan Williams",
+    "Faustina Hwang",
+    "Alexis Kirke",
+    "Eduardo Miranda",
+    "Slawomir J. Nasuto"
+  ],
+  "License": "CC0",
+  "DatasetDOI": "10.82901/nemar.on002724",
+  "SourceDatasets": [
+    {
+      "DOI": "10.18112/openneuro.ds002724.v1.0.1"
+    }
+  ],
+  "Version": "1.0.0"
 }
