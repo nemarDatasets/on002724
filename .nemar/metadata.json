@@ -1,33 +1,113 @@
 {
   "version": "2.0",
-  "dataset_id": "on002724",
-  "source": "openneuro",
-  "source_id": "ds002724",
+  "pipeline_stage": "enriched",
   "title": "A dataset recorded during development of an affective brain-computer music interface: training sessions",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Ian Daly": {},
     "Nicoletta Nicolaou": {},
-    "Duncan Williams": {},
+    "Duncan Williams": {
+      "orcid": "0000-0003-4793-8330",
+      "affiliations": [
+        {
+          "name": "Plymouth University, Plymouth, Devon, UK"
+        }
+      ]
+    },
     "Faustina Hwang": {},
     "Alexis Kirke": {},
     "Eduardo Miranda": {},
     "Slawomir J. Nasuto": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002724.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on002724",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002724",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1145/3059005",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/sdata.2018.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.2",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".nfsaa93520d9b399143000015bb",
+    ".tsv",
+    ".wav"
+  ],
+  "description": "This dataset contains electroencephalogram (EEG), galvanic skin response (GSR), and electrocardiogram (ECG) recordings from 16 healthy participants during an affective music brain-computer interface training study. Participants listened to 40-second music clips designed to induce specific emotional states across three sessions, with subjective valence and arousal ratings collected. The dataset supports research on music-induced emotion recognition and brain-computer interface development for affective state modulation. This is the training dataset; companion datasets for system calibration and online real-time control are also available.",
+  "methods_description": "EEG, GSR, and ECG data were recorded at 1 kHz sampling rate from 16 participants listening to synthetic music clips (40 s duration) targeting two affective states per clip. Data collection occurred over 3 sessions on separate days, each containing 4 runs of 18 trials. Participants provided subjective ratings of valence and arousal following each music clip. The synthetic music generator used to generate the music clips was presented in Williams et al. (2017): 'Affective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition System', ACM Trans. Appl. Percept. 14, 3, Article 17 (May 2017). DOI: 10.1145/3059005.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "emotion recognition"
+    },
+    {
+      "term": "music perception"
+    },
+    {
+      "term": "affective computing"
+    },
+    {
+      "term": "galvanic skin response"
+    },
+    {
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
+      "term": "synthetic music"
+    },
+    {
+      "term": "valence"
+    },
+    {
+      "term": "arousal"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Engineering and Physical Sciences Research Council",
+      "award_number": "EP/J003077/1"
+    },
+    {
+      "funder_name": "Engineering and Physical Sciences Research Council",
+      "award_number": "EP/J002135/1"
+    }
+  ],
+  "source_hash": "bbf1d30b8741e390ea3b8413b6102b5101726b96cb61f5cc27d56cbac6128a15"
 }
