@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002724-blue)](https://doi.org/10.82901/nemar.on002724)
+
 0. Sections
 ------------
 
@@ -61,11 +63,11 @@ The dataset comprises data from 17 subjects, stored using the BIDS format. The s
 
 This information is available in the following publications:
 
-[1] Daly, I., Nicolaou, N., Williams, D., Hwang, F., Kirke, A., Miranda, E., Nasuto, S.J., “Neural and physiological data from participants listening to affective music”, Scientific Data, 2018.
+[1] Daly, I., Nicolaou, N., Williams, D., Hwang, F., Kirke, A., Miranda, E., Nasuto, S.J., ï¿½Neural and physiological data from participants listening to affective musicï¿½, Scientific Data, 2018.
 
-[2] Daly, I., Williams, D., Hwang, F., Kirke, A., Malik, A., Roesch, E., Weaver, J., Miranda, E. R., Nasuto, S. J., “Identifying music-induced emotions from EEG for use in brain-computer music interfacing”, in Proc. 4th Workshop on Affective Brain-Computer Interfaces at the 6th International Conference on Affective Computing and Intelligent Interaction (ACII2015). Xi’an, China, 21-25 September 2015.
+[2] Daly, I., Williams, D., Hwang, F., Kirke, A., Malik, A., Roesch, E., Weaver, J., Miranda, E. R., Nasuto, S. J., ï¿½Identifying music-induced emotions from EEG for use in brain-computer music interfacingï¿½, in Proc. 4th Workshop on Affective Brain-Computer Interfaces at the 6th International Conference on Affective Computing and Intelligent Interaction (ACII2015). Xiï¿½an, China, 21-25 September 2015.
 If you use this dataset in your study please cite these references, as well as the following reference:
 
-[3] Williams, D., Kirke, A., Miranda, E.R., Daly, I., Hwang, F., Weaver, J., Nasuto, S.J., “Affective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition System”, ACM Trans. Appl. Percept. 14, 3, Article 17 (May 2017), 13 pages. DOI: https://doi.org/10.1145/3059005
+[3] Williams, D., Kirke, A., Miranda, E.R., Daly, I., Hwang, F., Weaver, J., Nasuto, S.J., ï¿½Affective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition Systemï¿½, ACM Trans. Appl. Percept. 14, 3, Article 17 (May 2017), 13 pages. DOI: https://doi.org/10.1145/3059005
 
 Thank you for your interest in our work.
