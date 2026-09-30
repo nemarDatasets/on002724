@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "A dataset recorded during development of an affective brain-computer music interface: training sessions",
-  "description": "This dataset contains electroencephalogram (EEG), galvanic skin response (GSR), and electrocardiogram (ECG) recordings from 17 healthy participants during an affective music brain-computer interface training study. Participants listened to 40-second music clips (20s per emotional state) designed to induce specific emotional states across three sessions, with self-reported valence and arousal ratings. The data supports the development and validation of music-based brain-computer interfaces for monitoring and inducing affective states. This is the training session dataset; two additional datasets cover system calibration and online real-time control phases.",
-  "methods_description": "EEG, GSR, and ECG data were recorded at 1 kHz sampling rate from 17 participants listening to synthetic music clips (40 s duration, with 20s targeting emotional state A and 20s targeting emotional state B per clip). Data collection occurred over 3 sessions on separate days, each containing 4 runs of 18 trials. Participants provided self-reported valence and arousal ratings for each trial. Music clips were generated using the synthetic music generator described in Williams et al. (2017). Methods and analysis are detailed in Daly et al. (2018) and Daly et al. (2015). References: Williams, D., Kirke, A., Miranda, E.R., Daly, I., Hwang, F., Weaver, J., Nasuto, S.J., 'Affective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition System', ACM Trans. Appl. Percept. 14, 3, Article 17 (May 2017). Daly, I., Nicolaou, N., Williams, D., Hwang, F., Kirke, A., Miranda, E., Nasuto, S.J., 'Neural and physiological data from participants listening to affective music', Scientific Data, 2018. Daly, I., Williams, D., Hwang, F., Kirke, A., Malik, A., Roesch, E., Weaver, J., Miranda, E.R., Nasuto, S.J., 'Identifying music-induced emotions from EEG for use in brain-computer music interfacing', in Proc. 4th Workshop on Affective Brain-Computer Interfaces at the 6th International Conference on Affective Computing and Intelligent Interaction (ACII2015), Xi'an, China, 21-25 September 2015.",
+  "description": "EEG, galvanic skin response (GSR) and electrocardiogram (ECG) recordings from 16 healthy participants who listened to 40 s synthetically generated music clips targeting two affective states defined by valence and arousal. Data were collected over three sessions on separate days, each with four runs of 18 trials. The recordings were made to train an affective brain-computer music interface (BCMI-MIdAS) to induce target emotional states in individual users. Self-reported valence and arousal values and auxiliary variables are included.",
+  "methods_description": "Participants completed 3 sessions on separate days, each with 4 runs of 18 trials. In each trial they listened to a 40 s music clip from a synthetic music generator. The first 20 s targeted one affective state and the last 20 s targeted another. EEG, GSR and ECG were recorded at 1 kHz, and participants reported valence and arousal.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -30,33 +30,28 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "emotion recognition"
+      "term": "Music",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009146"
     },
     {
-      "term": "affective computing"
+      "term": "Emotion-Focused Therapy",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000071441"
     },
     {
-      "term": "music perception"
+      "term": "affective state"
     },
     {
-      "term": "valence"
-    },
-    {
-      "term": "arousal"
-    },
-    {
-      "term": "galvanic skin response"
+      "term": "Galvanic Skin Response",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005712"
     },
     {
       "term": "Electrocardiography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
-    },
-    {
-      "term": "synthetic music"
-    },
-    {
-      "term": "music-induced emotion"
     }
   ],
   "related_identifiers": [
@@ -66,24 +61,19 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002724",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.1145/3059005",
       "identifier_type": "DOI",
       "relation_type": "References"
     },
     {
-      "identifier": "10.1038/sdata.2018.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds002724.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on002724",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -101,7 +91,7 @@
     "eeg"
   ],
   "sizes": [
-    "9.1 GB (432 files)"
+    "8.52 GB (432 files)"
   ],
   "formats": [
     ".edf",
